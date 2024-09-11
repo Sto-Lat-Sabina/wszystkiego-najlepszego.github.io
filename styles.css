@@ -1,0 +1,113 @@
+body {
+    background-color: #dfc89e;
+}
+
+.logo-container {
+    position: absolute;
+    margin-top: 120px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: flex;
+}
+
+.logo {
+    max-width: 1600px;
+    height: auto;
+    margin-bottom: -36px
+}
+
+.nadguzikami {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+}
+
+.image-button2 {
+    position: absolute;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    left: calc(50% - 310px); 
+}
+
+.image-button2 {
+    top: 1191px; 
+    margin-bottom: 20px;
+}
+
+.image-button2 img {
+    width: 600px;
+    height: auto;
+    display: block;
+}
+
+.image-button2:hover img {
+    transform: scale(1.04);
+}
+
+
+.image-button:focus {
+    outline: none;
+}
+
+.image-button2:focus {
+    outline: none;
+}
+
+.pozdro {
+    width: 400px;
+    position: absolute; 
+    left: calc(50% - 200px); 
+    top: 136px;
+}
+
+.piosenka {
+    position: absolute; 
+    left: calc(50% - 404.9px);
+    top: 290px
+}
+
+.zyczenia {
+    position: absolute; 
+    top: 386px;
+    left: calc(50% - 378px);
+    color:aliceblue;
+   -webkit-text-stroke: 2.4px #000000;
+    border-radius: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 346px;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+    
+}
+
+.tekst {
+    position: absolute; 
+    left: calc(50% - 633px);
+    top: 870px;
+    color:aliceblue;
+   -webkit-text-stroke: 1.8px #000000;
+    border-radius: 1px;
+    text-align: center;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    margin-top: 18px;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 0.8;
+    white-space: nowrap; /* Zapobiega zawijaniu tekstu */
+
+}
+ .stopka {
+    position: absolute;
+    top: 1330px;
+ }
